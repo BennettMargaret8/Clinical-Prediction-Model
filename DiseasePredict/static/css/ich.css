@@ -1,0 +1,107 @@
+body {
+    font-family: "Songti SC";
+    background-color: #eeeeee;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%
+}
+
+.zh_title {
+    color: #6e6e6e;
+}
+
+.unit {
+    color: #6e6e6e;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.outer_container {
+    margin: 0 auto;
+    width: 970px;
+    height: 1200px;
+    background-color: white;
+    padding: 10px
+}
+
+.container {
+    display: flex;
+    padding: 40px 0 0 0;
+}
+
+.left_container {
+    width: 480px;
+    height: 100%
+}
+
+.right_container {
+    padding: 0 20px 20px 0;
+    margin-left: 90px;
+}
+
+.span {
+    display: flex;
+    margin: 5px 0;
+    color: #2e6da4;
+}
+
+.select-span{
+    width: 150px;
+}
+
+.red{
+    color: red;
+}
+
+.ring {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 100px;
+    position: absolute;
+}
+
+.fraction {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: #00ABEB;
+}
+
+.small {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.title {
+    font-size: 16px;
+    color: #00ABEB;
+    bottom: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+.footer {
+    width: 970px;
+    background-color: white;
+    margin: 0 auto
+}
+
+.copyright {
+    margin: 0 auto;
+    width: 900px;
+    background-color: white;
+    padding: 10px 10px 20px 10px;
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    color: #5e5e5e
+}
